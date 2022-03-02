@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stylesheet 2</title>
+
+	<style>
+				/*Default CSS*/
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-family: Arial,Verdana,serif;
+			font-size: 1em;
+			color: black;
+			background-color: white;
+			line-height: 22px;
+		}
+		.container{
+			width: 1140px;
+			margin: auto;
+			background-color: #C83838
+		}
+		a{
+			text-decoration: none;
+			color: black;
+			display: inline-block;
+		}
+		ul{
+			list-style-type: none;
+		}
+		.d-flex{
+			display: flex;
+		}
+		.space{
+			justify-content: space-between;
+		}
+		/*Main CSS*/
+
+		header.header {
+		    background-color: #C83838;
+		    color: white;
+		    padding: 30px 15px;
+		}
+		.header p{
+			margin-top: 25px;
+			font-size: 23px;
+		}
+		/*Header end*/
+
+		.main{
+			background-color: white;
+			margin-right: 10px;
+			margin-left: 10px;
+			padding: 15px;
+		}
+
+		nav {
+		    float: right;
+		    margin-top: 10px;
+		    margin-right: 20px;
+		}
+		li {
+		    margin-bottom: 10px;
+		    background-color: #C83838;
+		    padding: 7px 25px;
+		    border: 1px solid #C83838;
+		    border-radius: 25px;
+		}
+		li a{
+			color: white;
+		}
+		li a:hover{
+			color: #C83838;
+			background-color: white;
+		}
+		li:hover,.active li{
+			background-color: white;
+			color: white;
+		}
+
+
+
+
+
+
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1>Welcome to My Homepage</h1>
+			<p>Use the menu to select different Stylesheets</p>
+		</header>
+
+		<!-- Header End -->
+		<div class="main">
+			<div class="main-left">
+				<nav>
+					<ul>
+						<li><a href="index.html" target="_blank">Stylesheet 1</a></li>
+						<li class="active"><a href="Stylesheet-2.html" target="_blank">Stylesheet 2</a></li>
+						<li><a href="Stylesheet-3.html" target="_blank">Stylesheet 3</a></li>
+						<li><a href="Stylesheet-4.html" target="_blank">Stylesheet 4</a></li>
+						<li><a href="No-Stylesheet.html" target="_blank">No Stylesheet</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="main-right">
+				<div class="middle">
+					<div class="style">
+						<h2>Same Page Different Stylesheets</h2><br>
+						<p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets.This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+						</p>
+						<p><a href="">Stylesheet 1</a>,<a href="">Stylesheet 2</a>,<a href="">Stylesheet 3</a>,<a href="">Stylesheet 4</a></p><br>
+					</div>
+					<div class="no-style">
+						<h2>No Styles</h2><br>
+						<p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+						<p><a href="">Stylesheet 1</a></p>
+					</div>
+				</div>
+				<div class="side-bar">
+					<h2>Side-Bar</h2><br>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				</div>
+			</div>
+
+		</div>
+		
+		<!-- Main End -->
+
+		<footer class="footer">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+		</footer>
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>

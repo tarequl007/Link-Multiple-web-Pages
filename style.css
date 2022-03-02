@@ -1,0 +1,96 @@
+/*Default CSS*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial,Verdana,serif;
+	font-size: 1em;
+	color: black;
+	background-color: white;
+	line-height: 22px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+ul{
+	list-style-type: none;
+}
+.d-flex{
+	display: flex;
+}
+.space{
+	justify-content: space-between;
+}
+/*Main CSS*/
+
+header.header {
+    background-color: green;
+    color: white;
+    padding: 20px 15px;
+}
+.header p{
+	margin-top: 7px;
+}
+
+/*Header End*/
+.main{
+	margin-top: 10px;
+}
+.main-left{
+	flex-basis: 29%;
+	margin-right: 10px;
+}
+.main-right{
+	flex-basis: 70%;
+}
+.middle{
+	flex-basis: 64%;
+	margin-right: 10px;
+}
+.side-bar{
+	flex-basis: 35%;
+	background-color: #32A4E7;
+	padding: 25px 25px;
+	border-radius: 5px;
+}
+.style {
+    margin-top: 23px;
+}
+.style a{
+	text-decoration: underline;
+}
+.style a:hover{
+	text-decoration: none;
+}
+
+
+.main-left li {
+    border: 1px solid grey;
+    background-color: #ddd;
+    border-radius: 6px;
+}
+.main-left li {
+	margin-top: 5px;
+}
+.main-left a{
+	padding: 4px;
+}
+.main-left li:hover{
+	background-color: #F1F1F1;
+}
+
+footer.footer {
+    border: 1px solid gray;
+    background-color: #F1F1F1;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
